@@ -29,7 +29,21 @@ A Java-based console application for predicting possible health issues and recom
 
 ## 📁 Project Structure
 
-project-root/ ├── main/ │ └── Main.java # Main entry point and user interaction ├── models/ │ ├── Disease.java # Represents a disease entity │ ├── Doctor.java # Represents a doctor entity │ ├── HealthRecord.java # Stores user's health-related inputs │ ├── PredictionModel.java # Contains logic for predicting diseases │ └── User.java # Represents user data ├── services/ │ ├── DoctorService.java # Handles doctor recommendation │ ├── PredictionService.java # Coordinates prediction process │ └── UserService.java # Handles user creation and management ├── README.md # Project documentation └── requirements.txt # List of dependencies
+project-root/
+├── main/
+│   └── Main.java                # Main entry point and user interaction
+├── models/
+│   ├── Disease.java             # Represents a disease entity
+│   ├── Doctor.java              # Represents a doctor entity
+│   ├── HealthRecord.java        # Stores user's health-related inputs
+│   ├── PredictionModel.java     # Contains logic for predicting diseases
+│   └── User.java                # Represents user data
+├── services/
+│   ├── DoctorService.java       # Handles doctor recommendation
+│   ├── PredictionService.java   # Coordinates prediction process
+│   └── UserService.java         # Handles user creation and management
+├── README.md                    # Project documentation
+└── requirements.txt             # List of dependencies
 
 ---
 
@@ -63,28 +77,30 @@ Enter your name: John
 Enter your age: 22
 Enter your BMI: 28.6
 Enter your medical history (or 'None'): None
+
 User Registered: John
-Enter your symptoms (comma-separated): fewer
+
+Enter your symptoms (comma-separated): fever
 
 Predicted Disease: Unknown | Risk Level: Low
 Recommended Doctor: Dr. Smith (General Physician)
 
 
 
-📌 Future Enhancements:
-🔍 Real-time disease prediction using machine learning
-🌐 GUI integration with JavaFX or Swing
-☁️ Online database integration for dynamic doctor lookup
-🧾 PDF report generation for health records
+## 📌 Future Enhancements:
+- 🔍 Real-time disease prediction using machine learning
+- 🌐 GUI integration with JavaFX or Swing
+- ☁️ Online database integration for dynamic doctor lookup
+- 🧾 PDF report generation for health records
 
-📄 License:
-This project is licensed under the MIT License.
+## 📄 License:
+This project is licensed under the [MIT License](LICENSE).
 
-🙌 Contributing:
+## 🙌 Contributing:
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-🔗 Connect:
-GitHub: @AdapaJohn
-LinkedIn: John Adapa
+## 🔗 Connect:
+- GitHub: [@AdapaJohn](https://github.com/AdapaJohn)
+- LinkedIn: [John Adapa](https://www.linkedin.com/in/john-adapa)
 
 Built with ❤️ using Java and solid OOP fundamentals.
