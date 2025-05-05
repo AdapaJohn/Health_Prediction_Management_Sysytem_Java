@@ -29,19 +29,7 @@ A Java-based console application for predicting possible health issues and recom
 
 ## 📁 Project Structure
 
-project-root/
-├── main/
-│ └── Main.java # Main entry point and user interaction
-├── models/
-│ ├── Disease.java # Represents a disease entity
-│ ├── Doctor.java # Represents a doctor entity
-│ ├── HealthRecord.java # Stores user's health-related inputs
-│ ├── PredictionModel.java # Contains logic for predicting diseases
-│ └── User.java # Represents user data
-├── services/
-│ ├── DoctorService.java # Handles doctor recommendation
-│ ├── PredictionService.java # Coordinates prediction process
-│ └── UserService.java # Handles user creation and management
+project-root/ ├── main/ │ └── Main.java # Main entry point and user interaction ├── models/ │ ├── Disease.java # Represents a disease entity │ ├── Doctor.java # Represents a doctor entity │ ├── HealthRecord.java # Stores user's health-related inputs │ ├── PredictionModel.java # Contains logic for predicting diseases │ └── User.java # Represents user data ├── services/ │ ├── DoctorService.java # Handles doctor recommendation │ ├── PredictionService.java # Coordinates prediction process │ └── UserService.java # Handles user creation and management ├── README.md # Project documentation └── requirements.txt # List of dependencies
 
 ---
 
